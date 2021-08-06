@@ -13,7 +13,7 @@ mutation Mutation($addUserInput: AddUserInput!) {
       username
       email
       bookCount
-      saveBooks {
+      savedBooks {
         bookId
         authors
         description
@@ -37,7 +37,7 @@ mutation Mutation($loginInput: LoginInput!) {
       username
       email
       bookCount
-      saveBooks {
+      savedBooks {
         bookId
         authors
         description
@@ -45,6 +45,27 @@ mutation Mutation($loginInput: LoginInput!) {
         image
         link
       }
+    }
+  }
+}
+```
+
+### saveBook
+
+```
+mutation Mutation($saveBookInput: SaveBookInput!) {
+  saveBook(input: $saveBookInput) {
+    _id
+    username
+    email
+    bookCount
+    savedBooks {
+      bookId
+      authors
+      description
+      title
+      image
+      link
     }
   }
 }
