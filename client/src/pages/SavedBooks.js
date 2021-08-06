@@ -8,7 +8,7 @@ import {
   Button,
 } from "react-bootstrap";
 
-import { ME } from "../mutations";
+import { ME } from "../queries";
 
 const SavedBooks = () => {
   // use query hook for the me query and get the data, error and loading state from graphQL
