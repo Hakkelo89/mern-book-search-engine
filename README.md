@@ -1,6 +1,29 @@
 # 21 MERN: Book Search Engine
 
-## Mutations
+## Query
+
+### me
+
+```
+query Query {
+  me {
+    _id
+    username
+    email
+    bookCount
+    savedBooks {
+      bookId
+      authors
+      description
+      title
+      image
+      link
+    }
+  }
+}
+```
+
+## Mutation
 
 ### addUser
 
