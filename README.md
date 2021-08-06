@@ -70,3 +70,24 @@ mutation Mutation($saveBookInput: SaveBookInput!) {
   }
 }
 ```
+
+### removeBook
+
+```
+mutation Mutation($removeBookBookId: ID!) {
+  removeBook(bookId: $removeBookBookId) {
+    _id
+    username
+    email
+    bookCount
+    savedBooks {
+      bookId
+      authors
+      description
+      title
+      image
+      link
+    }
+  }
+}
+```
