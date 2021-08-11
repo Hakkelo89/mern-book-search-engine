@@ -12,7 +12,7 @@
 ## Project Link
 
 Click [here](https://stormy-beach-18418.herokuapp.com/) to view project on Heroku
-Click [here](https://pdubb3.github.io/mern-book-search-engin/) to view GIT repo
+Click [here](https://pdubb3.github.io/mern-book-search-engine/) to view GIT repo
 
 ## Description
 
